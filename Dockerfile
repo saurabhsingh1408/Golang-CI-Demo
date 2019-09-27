@@ -1,5 +1,1 @@
-FROM alpine
-
-COPY gopath/bin/GOLANG-CI-DEMO /go/bin/GOLANG-CI-DEMO
-
-ENTRYPOINT /go/bin/GOLANG-CI-DEMO
+FROM golang:onbuild
